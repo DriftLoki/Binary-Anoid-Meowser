@@ -1,10 +1,9 @@
 # Binary-Anoid-Meowser
 
-Addition of an Arduino Nano to the Anoid Meowser to enable binary firing capabilities. 
+Addition of an Arduino Nano to the Anoid Meowser to enable binary firing.
+This project adapts the solenoid-driven Anoid Meowser by introducing an Arduino Uno to manage the firing cycle. Using a custom state-machine and switch debouncing, and basic solenoid logic.
 
-This project adapts the solenoid-driven Anoid Meowser by introducing a microcontroller to manage the firing cycle. Using a custom state-machine and switch debouncing, this modification allows the blaster to fire exactly one dart when the trigger is pulled, and one dart when the trigger is released.
-
-*Code heavily borrowed and adapted from Will(BEEF)'s Manatee remix of the Gnk-200, modified by drift_Loki/Eugene.*
+*Code borrowed and adapted from Will(BEEF)'s Manatee remix of the Gnk-200, modified by drift_Loki/Eugene.*
 
 ---
 
@@ -22,7 +21,7 @@ This project adapts the solenoid-driven Anoid Meowser by introducing a microcont
 
 To complete this modification, you will need:
 *   **1x** Arduino Nano
-*   **1x** Nexperia PSMN1R0-30YLC MOSFET (Highly recommended for high-rate-of-fire solenoid control)
+*   **1x** Infineon irlb3034 MOSFET or equivalent (Highly recommended for high-rate-of-fire solenoid control)
 *   **1x** Microswitch (for the trigger)
 *   **1x** Solenoid (Standard or Neutron high-rate-of-fire)
 *   Standard blaster wiring components (wire, resistors, flyback diode for the solenoid, XT60 connector, etc.)
@@ -37,7 +36,7 @@ Please refer to the wiring diagram below before soldering. Ensure your flyback d
 
 ---
 
-## 💻 Software Installation
+## 💻 Software Installation for chuds
 
 1. Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 2. Install the **Debounce** library:
