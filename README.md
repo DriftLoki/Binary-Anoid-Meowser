@@ -8,7 +8,7 @@ This project adapts the solenoid-driven Anoid Meowser by introducing an Arduino 
 
 ---
 
-## ⚡ Features
+##  Features
 
 *   **Binary Trigger:** Fires once on trigger pull, and once on trigger release.
 *   **Spam Protection:** A built-in queue cap (max 3 darts) prevents "runaway" firing if the trigger is feathered faster than the solenoid can physically cycle.
@@ -18,7 +18,7 @@ This project adapts the solenoid-driven Anoid Meowser by introducing an Arduino 
 
 ---
 
-## 🛠️ Bill of Materials (BOM)
+##  Bill of Materials (BOM)
 
 To complete this modification, you will need:
 *   **1x** Arduino Nano
@@ -43,7 +43,7 @@ Here are all the components fully installed and soldered. Take note of the small
 
 ---
 
-## 🔌 Wiring Diagram
+##  Wiring Diagram
 
 Please refer to the wiring diagram below before soldering. Ensure your flyback diode is oriented correctly across the solenoid terminals to protect the MOSFET from voltage spikes.
 
@@ -51,7 +51,17 @@ Please refer to the wiring diagram below before soldering. Ensure your flyback d
 
 ---
 
-## 💻 Software Installation for chuds
+##  Repository Files
+
+This repository contains the following files:
+*   **`Binary_Meowser.ino`**: The Arduino sketch containing the new code for binary firing logic.
+*   **`full_auto_meowser.ino`**: The alternative Arduino sketch containing the full auto code.
+*   **`meowser diagram.png`**: The added wiring diagram for connecting the components.
+*   **`README.md`**: This documentation file outlining the project.
+
+---
+
+##  Software Installation for chuds
 
 1. Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 2. Install the **Debounce** library:
