@@ -32,7 +32,7 @@ To complete this modification, you will need:
 ## 📸 Assembly & Component Placement
 
 **Nano & MOSFET Placement**  
-Below is the back view showing exactly where the MOSFET and Arduino Nano are mounted inside the Noidcore print.
+Below is the back view showing exactly where the MOSFET and Arduino Nano are placed inside the Noidcore print.
 
 <img width="2880" height="2160" alt="Back Arduino placment" src="https://github.com/user-attachments/assets/1c1036ec-f65d-4ed5-afa3-fa17bdbc04c6" />
 
