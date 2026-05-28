@@ -41,7 +41,7 @@ Please refer to the wiring diagram below before soldering. Ensure your flyback d
 1. Download and install the [Arduino IDE](https://www.arduino.cc/en/software).
 2. Install the **Debounce** library:
    * Go to `Sketch` -> `Include Library` -> `Manage Libraries...`
-   * Search for `debounce` and install it.
+   * Search for `debounce` by Aaron Kimball and install it.
 3. Open the `Binary_Anoid_Meowser.ino` sketch.
 4. (Optional) Adjust the timing variables at the top of the sketch to match your specific solenoid's retraction and extension times:
 ```cpp
