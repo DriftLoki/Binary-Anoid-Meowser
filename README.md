@@ -22,7 +22,7 @@ This project adapts the solenoid-driven Anoid Meowser by introducing an Arduino 
 
 To complete this modification, you will need:
 *   **1x** Arduino Nano
-*   **1x** Nexperia PSMN1R0-30YLC,115 MOSFET or equivalent (Highly recommended for high-rate-of-fire solenoid control)
+*   **1x** Infineon IRLB3034PBF-ND MOSFET or equivalent
 *   **1x** Microswitch (for the trigger)
 *   **1x** Solenoid (Standard or Neutron high-rate-of-fire)
 *   Standard blaster wiring components (wire, resistors, flyback diode for the solenoid, XT60 connector, etc.)
