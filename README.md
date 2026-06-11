@@ -47,7 +47,7 @@ Here are all the components fully installed and soldered. Take note of the small
 
 Please refer to the wiring diagram below before soldering. Ensure your flyback diode is oriented correctly across the solenoid terminals to protect the MOSFET from voltage spikes.
 
-<img width="1700" height="1000" alt="meowser diagram" src="https://github.com/user-attachments/assets/c9c2b6d3-35cd-44de-bed7-c116a4837521" />
+<img width="1920" height="1080" alt="wiringDiagramV2" src="https://github.com/user-attachments/assets/292733ea-ba92-4a01-a512-62730001b7c6" />
 
 ---
 
