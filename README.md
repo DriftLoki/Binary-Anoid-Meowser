@@ -29,7 +29,7 @@ To complete this modification, you will need:
 
 ---
 
-## 📸 Assembly & Component Placement
+##  Assembly & Component Placement
 
 **Nano & MOSFET Placement**  
 Below is the back view showing exactly where the MOSFET and Arduino Nano are placed inside the Noidcore print.
